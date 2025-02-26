@@ -6,7 +6,7 @@
 
 header {
     background-color: #120323 ;
-    color: white;
+    color: #97bf04;
     text-align: center;
     padding: 3em;
 }
@@ -44,6 +44,8 @@ figcaption {
 aside {
     background-color: #97bf04;
     padding: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 footer {
