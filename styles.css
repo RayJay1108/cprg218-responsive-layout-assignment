@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+/* Sans Serif Font as client requested*/
+body {
+    font-family: sans-serif;
+}
+
 /* Header */
 
 header {
