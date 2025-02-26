@@ -1,8 +1,12 @@
+/* Iphone View*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Header */
 
 header {
     background-color: #120323 ;
@@ -22,7 +26,7 @@ header {
     flex-direction: column;
 }
 
-
+/* Main content*/
 
 figure {
     display: flex;
@@ -47,6 +51,8 @@ figcaption p {
     padding-top: 1em;
 } 
 
+/* Aside */
+
 aside {
     background-color: #97bf04;
     margin-bottom: 1em;
@@ -67,6 +73,8 @@ aside h3 {
     padding-top: 1em;
 }
 
+/* Footer */
+
 
 footer {
     background-color: #d9043d;
@@ -77,7 +85,7 @@ footer {
 }
 
 
-
+/* Ipad View*/
 
 @media screen and (min-width: 768px) {
 
@@ -106,6 +114,8 @@ footer {
         padding-left: 1em;
     }
 }
+
+/* Desktop View*/
 
 @media screen  and (min-width: 1000px) {
     #container {
