@@ -27,10 +27,12 @@ header {
 figure {
     display: flex;
     flex-direction: column;
+    padding: 2em;
 }
 
 figure h2 {
     color: #120323;
+    padding-top: 0.5em;
 }
 
 figure img {
@@ -38,8 +40,7 @@ figure img {
 }
 
 figcaption {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 1.5em;
 }
 
 figcaption p {
@@ -76,6 +77,8 @@ footer {
 }
 
 
+
+
 @media screen and (min-width: 768px) {
 
     figure img {
@@ -87,9 +90,11 @@ footer {
         flex-direction: row;
     }
 
-    main {
-        padding: 3em;
+    figcaption {
+        padding-left: 1em;
     }
+
+    
 
     .header-container {
         flex-direction: row;
